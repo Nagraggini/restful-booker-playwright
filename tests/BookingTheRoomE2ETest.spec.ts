@@ -11,6 +11,7 @@ test("Booking the room e2e test", async ({
     // Expect a title "to contain" a substring.
     await expect(page).toHaveTitle(/Restful/);
     await reservationPage.selectRoomType("Single");
+    await this.page.waitForTimeout(3000);
     await reservationPage.reserveNowButton.click();
     await reservationPage.fillTheFormAndBookingNow(
         "Jane",
