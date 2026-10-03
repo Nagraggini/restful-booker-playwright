@@ -13,38 +13,4 @@ export class LandingPage {
             "//button[normalize-space()='Reserve Now']",
         );
     }
-
-    /**
-     * Click roomType.
-     * @param roomType 'Medicare' | 'Medicaid' | 'None'
-     */
-    public async selectRoomType(
-        roomType: "Single" | "Double" | "Suite",
-    ): Promise<void> {
-        if (roomType === "Single") {
-            await this.page
-                .locator(
-                    "//h5[normalize-space()='" +
-                        roomType +
-                        "']/../following-sibling::div/a",
-                )
-                .click();
-        } else if (roomType === "Double") {
-            await this.page
-                .locator(
-                    "//h5[normalize-space()='" +
-                        roomType +
-                        "']/../following-sibling::div/a",
-                )
-                .click();
-        } else if ((roomType = "Suite")) {
-            await this.page
-                .locator(
-                    "//h5[normalize-space()='" +
-                        roomType +
-                        "']/../following-sibling::div/a",
-                )
-                .click();
-        }
-    }
 }
