@@ -1,6 +1,4 @@
-
 <!--TODO create only 10-12 pc tests.-->
-
 
 ![Playwright Tests](https://github.com/Nagraggini/restful-booker-playwright/actions/workflows/playwright.yml/badge.svg)
 
