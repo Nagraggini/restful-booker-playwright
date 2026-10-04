@@ -7,7 +7,7 @@
 
 # Restful Booker Automation Framework
 
-Automated UI test suite for the OrangeHRM application, designed to demonstrate proficiency in modern test automation practices.
+Automated UI test suite for the Restfull Booker application, designed to demonstrate proficiency in modern test automation practices.
 
 Tested web application: https://automationintesting.online/
 
@@ -27,7 +27,8 @@ Tested web application: https://automationintesting.online/
 
 ## Test Report
 
-<!--TODO Allure Report -->
+![Test Report](docs/images/allure-report.png)
+📊 [View Allure Report](https://nagraggini.github.io/restful-booker-playwright/)
 
 ## Prerequisites
 
